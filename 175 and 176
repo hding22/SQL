@@ -1,0 +1,6 @@
+#175 
+select FirstName, LastName, City, State from Person left join Address on Person.PersonId=Address.PersonId;
+
+
+#176
+select Max(Salary) as SecondHighestSalary from Employee where Salary < (select Max(Salary)from Employee);
