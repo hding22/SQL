@@ -1,2 +1,2 @@
 # SQL
-Answer for database easy questions
+Answer for Leetcode database easy questions
