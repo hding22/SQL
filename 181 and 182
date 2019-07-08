@@ -1,0 +1,5 @@
+#181 and 182
+
+select a.Name as 'Employee' from employee as a, employee b where a.ManagerId=b.Id and a.Salary>b.Salary;
+
+select Email from Person group by Email having count(Email)>1;
